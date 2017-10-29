@@ -10,8 +10,19 @@ var jsx =
       <p className="fa fa-plus"> Основана в 2016 году</p>
       <p className="fa fa-map-marker"> Мы находимся в городе Иваново, 23 гимназии</p>
       <hr/>
-      
+      <h3>Новости</h3>
+      <div id="news">
+          <i className="fa fa-newspaper-o"><h5>Название новости</h5><p>Время</p></i>
+          <p id="lif_new">Новость</p>
+      </div>
+      <br/>
+      <div id="news">
+          <i className="fa fa-newspaper-o"><h5>Название новости</h5><p>Время</p></i>
+          <p id="lif_new">Новость</p>
+      </div>
+      <hr/>
       <h3>Наши видео</h3>
+      
       
     <i className="fa fa-file-video-o"> <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/6PZ8r7ky3Rg" frameborder="0" allowfullscreen></iframe></i>
     <br/>
@@ -29,5 +40,16 @@ var jsx =
     <a href="https://www.youtube.com/channel/UC1BIF_7YXKZzVj3k6Dcb0sA"><i  className="fa fa-youtube-play"></i></a>
     </div>;
       
+      var OneSignal = window.OneSignal || [];
+      OneSignal.push(["init", {
+        appId: "323bf40b-85ba-42bf-a642-07599101d065",
+        autoRegister: false,
+        notifyButton: {
+          enable: true /* Set to false to hide */
+        }
+      }]);
+                 
+
+
     
 ReactDOM.render(jsx, document.getElementById('root'));
