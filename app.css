@@ -12,6 +12,9 @@
             background: rgba(255,175,75,1);
            }
 
+p {
+    font-size: 25px;
+}
 
 body {
 background: rgba(255,175,75,1);
@@ -52,6 +55,15 @@ a:focus {
      color:  #c4c4c4;
 }
 
+#puch {
+    font-size: 30px;
+    border-radius: 10px;
+    background: #4dbf11;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
 #cont {
   width: 100%;
   position: fixed;
@@ -80,4 +92,9 @@ a:focus {
     margin-left: 25%;
     margin-right: 15%;
 }
+
+#lif_new {
+    font-size: 35px;
+}
+
 
