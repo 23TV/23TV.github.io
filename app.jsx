@@ -47,7 +47,6 @@ var jsx =
         notifyButton: {
           enable: true /* Set to false to hide */
         },
-        {
     /* Your other init options here */
     notifyButton: {
         enable: true, /* Required to use the notify button */
