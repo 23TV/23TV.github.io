@@ -16,49 +16,13 @@
 <div id="hellopreloader"><div id="hellopreloader_preload"></div><p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p></div>
 <script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
 <!-- HelloPreload http://hello-site.ru/preloader/ -->
- 
-  <div id="root">
-    <div id="container">
-        <h3 className="fa fa-video-camera" aria-hidden="true"> Видеостудия</h3>
-        <h1>#23TV</h1>
-         <hr/>
-         
-        <h4>О нас</h4>
-        <p className="fa fa-video-camera"> Мы молодая школьная видеостудия</p>
-        <p className="fa fa-plus"> Основана в 2016 году</p>
-        <p className="fa fa-map-marker"> Мы находимся в городе Иваново, 23 гимназии</p>
-        <hr/>
-        <h3>Новости</h3>
-        <div id="news">
-            <i className="fa fa-newspaper-o"><h5>Название новости</h5><p>Время</p></i>
-            <p id="lif_new">Новость</p>
-        </div>
-        <br/>
-        <div id="news">
-            <i className="fa fa-newspaper-o"><h5>Название новости</h5><p>Время</p></i>
-            <p id="lif_new">Новость</p>
-        </div>
-        <hr/>
-        <h3>Наши видео</h3>
-        
-        
-      <i className="fa fa-file-video-o"> <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/6PZ8r7ky3Rg" frameborder="0" allowfullscreen></iframe></i>
-      <br/>
-      <br/>
-      <i className="fa fa-file-video-o"> <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/byoJGd4U9xg" frameborder="0" allowfullscreen></iframe></i>
-      <br/>
-      <br/>
-      <i className="fa fa-file-video-o"> <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/OF0yS2ryZ9A" frameborder="0" allowfullscreen></iframe></i>
-      <br/>
-      <br/>
-      <i className="fa fa-file-video-o"> <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/fszwqb3-xw0" frameborder="0" allowfullscreen></iframe></i>
-      <hr/>
-      <a href="https://vk.com/mediacentr23"><i className="fa fa-vk"></i></a>
-      <br/>
-      <a href="https://www.youtube.com/channel/UC1BIF_7YXKZzVj3k6Dcb0sA"><i  className="fa fa-youtube-play"></i></a>
-      </div>;
-  </div>
 
+    
+     <div id="cont">
+             <div id="prog"></div>
+     </div>
+ 
+  <div id="root"></div>
    
   <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script> 
 
@@ -66,6 +30,11 @@
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
+  <script src="lib/react.js"></script>
+  <script src="lib/react-dom.js"></script>
+  <script src="lib/babel-browser.min.js"></script>
+    
+  <script src="app.jsx" type="text/babel"></script>
   
 
   <div id="disqus_thread"></div>
@@ -74,7 +43,7 @@
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
-var disqus_config = function () {
+/*var disqus_config = function () {
 this.page.url = '23tv.io';  // Replace PAGE_URL with your page's canonical URL variable
 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
@@ -84,7 +53,7 @@ var d = document, s = d.createElement('script');
 s.src = 'https://23tv.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
-})();
+})();*/
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                                           
